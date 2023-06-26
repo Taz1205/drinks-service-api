@@ -1,5 +1,5 @@
 import request from 'supertest';
-import { app } from '../app';
+import { app } from '../../app';
 test('GET /coffee should return default name as Latte', async () => {
 const res = await request(app)
 .get('/coffee')

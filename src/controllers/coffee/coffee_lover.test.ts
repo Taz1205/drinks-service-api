@@ -1,5 +1,5 @@
 import request from 'supertest';
-import { app } from '../app';
+import { app } from '../../app';
 describe('Test cofeelover API endpoint request', () => {
 test('GET should return correct message if endpoint is /cofeelover', async () => {
 const res = await request(app).get('/coffeelover');
