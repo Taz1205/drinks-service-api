@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Backend Exploration: TypeScript Practice with Drinks Service API using TDD approach
 
 ## Before you start
@@ -57,3 +58,6 @@ introduce a separation of concerns
 9️⃣Write extra tests for the coffee
 controller and push to GitHub
 
+=======
+# drinks-service-api
+>>>>>>> 169e5bb9db14226993341b9329be9a0e0d5a97ff
