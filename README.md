@@ -58,6 +58,20 @@ introduce a separation of concerns
 9️⃣Write extra tests for the coffee
 controller and push to GitHub
 
-=======
-# drinks-service-api
->>>>>>> 169e5bb9db14226993341b9329be9a0e0d5a97ff
+### Running as a Full Server
+
+Here we simply import the app server we’ve been building and we start it listening on
+port 3000.
+
+👉 Start your server by running start
+
+- npm start
+
+You should now be able to navigate to <http://localhost:3000/> and see your wonderful
+API. 🎉
+Let’s try some of the other end points 🙌
+👉 Try navigating to <http://localhost:3000/coffeelover/> and
+<http://localhost:3000/coffee/?coffeeName=mocha> too
+👉 You could also call those endpoints using Postman!
+👉 What happens if you try to GET from a non-existent endpoint? 🤔
+👉 Git commit your code to version control
